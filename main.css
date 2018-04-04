@@ -1,0 +1,56 @@
+body {
+  background-color: DarkSlateGrey;
+  font-family: Arial, Helvetica, sans-serif;
+  color: snow;
+  text-align: center;
+  margin: 50px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+/*nav bar*/
+.NavBar {
+  font-size: 17px;
+}
+.NavBar a:hover {
+  color: orange;
+}
+
+.AboutMe img {
+  border-style: solid;
+  border-width: 15px;
+  border-color: black;
+}
+
+/* Pictures  */
+.TopPictures {
+  margin-top: 50px;
+  height: auto;
+  width: auto;
+  max-height: 500px;
+  max-width: 500px;
+}
+/*Links*/
+.L2LLinks,
+.GoalSettingLinks,
+.MeetUpsLinks {
+  display: flex;
+  justify-content: space-around;
+}
+a:link {
+  color: snow;
+}
+
+a:visited {
+  color: snow;
+}
+
+a:hover {
+  color: orange;
+}

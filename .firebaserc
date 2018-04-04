@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "project-bucket-1",
+    "Project 1": "project-bucket-1"
+  }
+}
